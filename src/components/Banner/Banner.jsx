@@ -1,10 +1,15 @@
 import React from "react";
+import "./Banner.css"
+import logo from "../../assets/logo.png"
+import Recommandations from "./Recommandations";
+
 
 const Banner = () => {
 
   return (
-   <div>
-    <h1>{"La Maison Jungle"}</h1>
+   <div className="lmj-banner">
+    <img src={logo} alt="lmj" className="lmj-logo"></img>
+    < Recommandations />
 
    </div>
   )
